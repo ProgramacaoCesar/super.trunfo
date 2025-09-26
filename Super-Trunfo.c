@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 int main() {
-    // -------- Carta 1 --------
     char estado1 = 'A';
     char codigo1[4] = "A01";
     char cidade1[50] = "Curitiba";
@@ -10,7 +9,6 @@ int main() {
     float pib1 = 50000000.0;
     int pontosTuristicos1 = 20;
 
-    // -------- Carta 2 --------
     char estado2 = 'B';
     char codigo2[4] = "A02";
     char cidade2[50] = "Florianopolis";
@@ -19,7 +17,6 @@ int main() {
     float pib2 = 2000000.0;
     int pontosTuristicos2 = 50;
 
-    // -------- Exibição --------
     printf("\n===== Carta 1 =====\n");
     printf("Estado: %c\n", estado1);
     printf("Código: %s\n", codigo1);
